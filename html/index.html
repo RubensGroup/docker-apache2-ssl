@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>SSL Local Site</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body >
+    <div class="container">
+      
+      <div class="left-section">
+        <h1>Sitio Seguro Local</h1>
+      </div>
+      <div class="right-section">
+        <img src="img/TLS-600x400.png">
+      </div>
+
+      <div class="clear-css"></div>
+      <p>Este es un ejemplo de sitio seguro configurado con firma <b>SSL</b> y servido por <b>Apache2</b>. </p>
+      <p>Generado desde un Dockerfile, provisionado por <b>.sh</b> con las siguientes acciones:</p>
+      <ul>
+        <li>Copiado de los archivos .conf al directorio /etc/apache2/external/ creado previamente por el Dockerfile</li>
+        <li>Copiado del contenido de la carptea HTML a el directorio /var/www/html del Docker</li>
+        <li>Generación de CRT, CSR, KEY</li>
+        <li>Ejecución de comando CMD definido el el DockerFile para reinicar el Apache</li>
+      </ul>  
+    </div>
+  </body>
+</html>

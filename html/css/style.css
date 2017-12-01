@@ -1,0 +1,40 @@
+
+body, html{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 60%;
+  padding: 20px 25px;
+  
+}
+.clear-css{
+  clear: both;
+}
+.left-section{
+  width: 50%;
+  height: 75px;
+  position: absolute;
+  float: left;
+  align-items: center;
+  display: flex;
+  justify-content:center;
+}
+.left-section > h1{
+  float: left;
+}
+.right-section{
+  width: 50%;
+  height: 75px;
+  float: right;
+}
+.right-section > img{
+  
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
